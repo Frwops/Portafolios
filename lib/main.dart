@@ -108,12 +108,6 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                     ),
-                    SizedBox(height: 20.h),
-                    Container(
-                      width: MediaQuery.of(context).size.width,
-                      height: 200.h,
-                      color: const Color.fromARGB(0, 224, 224, 224),
-                    ),
                   ],
                 ),
               ),

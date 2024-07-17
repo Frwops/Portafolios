@@ -59,7 +59,6 @@ app.*.map.json
 .DS_Store
 
 # Web related
-lib/generated_plugin_registrant.dart
 
 # Other files
 .*.swp
