@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:portafolios/estilo/paleta_colores.dart';
+import 'package:portafolios/pages/proyectos.dart';
 
 class SobreMi extends StatelessWidget {
   const SobreMi({super.key});
@@ -85,8 +86,8 @@ class SobreMi extends StatelessWidget {
                   child: InkWell(
                 onTap: () {
                   // Acción que quieres realizar al hacer clic en la imagen
-                  Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const SobreMi()));
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const Proyectos()));
                 },
                 child: Image.asset(
                   'assets/images/icono_de_flecha_abajo.png',
