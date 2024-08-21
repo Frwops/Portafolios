@@ -23,7 +23,8 @@ class _ProyectosState extends State<Proyectos> {
       _opacityHorusDungaen = 0.5;
       _selectedDescription =
           'Aplicación para Android{\n\nFront-End = Flutter;\nBack-End = Laravel;\nBBDD = MySql;\n\n}';
-      _link = 'https://link-petcare.com'; // link del proyecto
+      _link =
+          'https://www.figma.com/design/ZPOIcc7jP344CbJSRNuLuD/PetCare?node-id=0-1&t=uv4tsqNvtnlhlRq7-1'; // link del proyecto
     });
   }
 
